@@ -4,7 +4,7 @@ Run in below order:
 1. [convert_coord.ipynb](./convert_coord.ipynb) - Converts Coordinates
     - To run, OneMap API key is required. Update [config.json](./config.json) Refer to [OneMap API Coordinate Conversion Docs](https://www.onemap.gov.sg/apidocs/apidocs/#coordinateConverters) for more information.
     - Outputs: [HDBCarparkInformation_latlong.csv](./data/HDBCarparkInformation_latlong.csv), [HDBPropertyInformation_latlong.csv](./data/HDBPropertyInformation_latlong.csv)
-2. [merge_data.ipynb](./merge_data.ipynb) - Merges datasets and cleans data. Outputs `merged_data.csv` which is used in the next notebooks.
+2. [merge_data.ipynb](./merge_data.ipynb) - Merges datasets and cleans data. 
     - Outputs: [CombinedCarpark.csv](./data/CombinedCarpark.csv) and [CombinedPOI.csv](./data/CombinedPOI.csv)
 3. [optimisation_bishan.ipynb](./optimisation_bishan.ipynb)
     - To run Gurobi optimisation on Bishan area. Includes sensitivity analysis.
