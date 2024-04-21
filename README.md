@@ -9,7 +9,7 @@ Run in below order:
 3. [optimisation_bishan.ipynb](./optimisation_bishan.ipynb)
     - To run Gurobi optimisation on Bishan area. Includes sensitivity analysis.
     - If you do not want to reconstruct the distance matrix, you can load precomputed distance matrix at [bishan_dm.pkl](./data/pkl/bishan_dm.pkl).
-4. [optimization_for_testing.ipynb](./optimization_for_testing.ipynb)
+4. [optimisation_for_testing.ipynb](./optimisation_for_testing.ipynb)
     - To run Gurobi optimisation on different areas for testing purposes. You can easily change the area by changing the `area_name` variable in the notebook.
     - In the last cell, you can easily extract the results of all areas. The output can be found in [EVChargerPlacementResults.csv](./data/EVChargerPlacementResults.csv).
 
