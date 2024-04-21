@@ -11,6 +11,7 @@ Run in below order:
     - If you do not want to reconstruct the distance matrix, you can load precomputed distance matrix at [bishan_dm.pkl](./data/pkl/bishan_dm.pkl).
 4. [optimization_for_testing.ipynb](./optimization_for_testing.ipynb)
     - To run Gurobi optimisation on different areas for testing purposes. You can easily change the area by changing the `area_name` variable in the notebook.
+    - In the last cell, you can easily extract the results of all areas. The output can be found in [EVChargerPlacementResults.csv](./data/EVChargerPlacementResults.csv).
 
 ## Datasets
 - [HDBCarparkInformation.csv](./data/HDBCarparkInformation.csv) from [HDB Carpark Information (Data.gov)](https://beta.data.gov.sg/datasets/d_23f946fa557947f93a8043bbef41dd09/view)
